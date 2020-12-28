@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="universal-crc",
-    version="0.3",
+    name="universalCRC",
+    version="0.4",
     author="Joram Fillol-Carlini",
     author_email="joram.fillolcarlini@laposte.net",
     description="A universal CRC (8, 16, 32 or 64) computation tool",
