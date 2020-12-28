@@ -6,7 +6,7 @@ The goal of this project is to provide a simple and universal CRC computation to
 
 Install universalCRC
 
-    $ pip install universalCRC
+    $ pip install universal-crc
 
 ## Usage
 

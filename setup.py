@@ -8,10 +8,10 @@ setuptools.setup(
     version="0.1",
     author="Joram Fillol-Carlini",
     author_email="joram.fillolcarlini@laposte.net",
-    description="An universal CRC (8, 16, 32 or 64) computation tool",
+    description="A universal CRC (8, 16, 32 or 64) computation tool",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/JoramFC/universalCRC",
     packages=setuptools.find_packages(where='src'),
     classifiers=[
         "Programming Language :: Python :: 3",
