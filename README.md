@@ -10,5 +10,12 @@ Install universalCRC
 
 ## Usage
 
+To use custom parameters :
+
 	import universalCRC
-	CRC = universalCRC.compute_CRC("111213141516171819",0x07,0x00,8)
+	CRC = universalCRC.compute_CRC("111213141516171819",0x07,0x00,0x00,8,False,False)
+
+To use predefined parameters :
+
+	import universalCRC
+	CRC = universalCRC.compute_CRC("111213141516171819",preset = "DARC")
